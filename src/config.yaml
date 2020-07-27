@@ -1,0 +1,12 @@
+properties:
+  alignmentTool: All
+  snpCallingTool: All
+  refGenome: /path/to/reference_genome/ 
+  numOfThreads: 1
+  outputFolder: ../output/
+  installFolder: ../programs/
+  tempFolder: /tmp/
+  snpChip: /Path/To/SNP-Chip-File
+
+seqs:
+  ../data/

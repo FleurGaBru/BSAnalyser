@@ -1,0 +1,3 @@
+[submodule "programs/BS-snper"]
+	path = programs/BS-snper
+	url = https://github.com/hellbelly/BS-Snper

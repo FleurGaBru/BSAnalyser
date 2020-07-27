@@ -1,0 +1,14 @@
+properties:
+  alignmentTool: bismark
+  snpCallingTool: bis-snp
+  refGenome: /home/NIOO.INT/sebastiaanm/refGenome/refForGreatTit.fa
+  #refGenome: /home/sebastiaan/Documents/NIOO-KNAW/seqs/refSeq/refForGreatTit.fa
+  numOfThreads: 4
+  outputFolder: /mnt/nfs/bioinfdata/home/NIOO/sebastiaanm/output/
+
+seqs:
+  #r1: ../data/r1_27230.fastq
+  r1: /home/NIOO.INT/sebastiaanm/sharedResults/seqtk/r1_27230.fastq
+  #r2: ../data/r2_27230.fastq
+  r2: /home/NIOO.INT/sebastiaanm/sharedResults/seqtk/r2_27230.fastq
+
