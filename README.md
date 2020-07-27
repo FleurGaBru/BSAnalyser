@@ -13,8 +13,8 @@ Contents
 How to use this file
 ---------------------
 
-This README file gives an introduction on how clone the pipeline repository and how to run the pipeline on the server. If you wish to know more how to work on the server, this should give you a general idea: https://gitlab.bioinf.nioo.knaw.nl/pipelines/epiGBS/blob/master/README.md.
-If you have any question, comment, complain or suggestion or if you encounter any conflicts or errors in this document or the pipeline, please contact me (S.TeMolder@student.han.nl or SilliusSodus on github)!
+This README file gives an introduction on how clone the pipeline repository and how to run the pipeline on the server. 
+If you have any question, comment, complain or suggestion or if you encounter any conflicts or errors in this document or the pipeline, please open an issue.
 
 ###### Enjoy your analysis and happy results!
 
@@ -40,7 +40,7 @@ To start a new analysis project based on this pipeline, follow the following ste
 - Clone and rename the pipeline-skeleton from our GitLab server by typing in the terminal. Replace <name> by your NIOO login-name. Cloning will only work, if you have logged in to gitlab at least once before:
 
 ```
-git clone --recurse-submodules https://gitlab.bioinf.nioo.knaw.nl/pipelines/bsanalyser.git
+git clone --recurse-submodules https://github.com/nioo-knaw/BSAnalyser.git
 ```
 
 Then you need to activate BS-snper by doing the following:
@@ -190,7 +190,3 @@ snakemake --cores <amount of cores to allocate to the entire pipeline> ~/BSAnaly
 
 
 ```
-
-#### Test data
-
-You can access, copy or link test data from /data/tutorials/epiGBS/test_data/ and run the pipeline.
