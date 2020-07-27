@@ -40,7 +40,7 @@ To start a new analysis project based on this pipeline, follow the following ste
 - Clone and rename the pipeline-skeleton from our GitLab server by typing in the terminal. Replace <name> by your NIOO login-name. Cloning will only work, if you have logged in to gitlab at least once before:
 
 ```
-git clone --recurse-submodules https://gitlab.bioinf.nioo.knaw.nl/SebastiaanM/PureBSAnalyser
+git clone --recurse-submodules https://gitlab.bioinf.nioo.knaw.nl/pipelines/bsanalyser.git
 ```
 
 Then you need to activate BS-snper by doing the following:
