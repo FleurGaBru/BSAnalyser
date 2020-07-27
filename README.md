@@ -190,7 +190,3 @@ snakemake --cores <amount of cores to allocate to the entire pipeline> ~/BSAnaly
 
 
 ```
-
-#### Test data
-
-You can access, copy or link test data from /data/tutorials/epiGBS/test_data/ and run the pipeline.
